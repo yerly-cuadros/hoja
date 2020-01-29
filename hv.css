@@ -1,0 +1,121 @@
+*{
+  background: lightyellow;
+}
+
+/* Esto es recomendado porque 
+nos permite llenar toda la pantalla */
+html, body {
+  margin: 10px 0;
+  height: 100%;
+  width: 100%;
+}
+
+body > div {
+  width: 100%;
+}
+
+.header {
+  height: 100%;
+  /* https://flexboxfroggy.com/#es */
+  display: flex;
+  align-items: center; /* Centrado vertical */
+  justify-content: center; /* Centrado horizontal */
+  background-image: url(https://www.elsetge.cat/myimg/f/7-79145_new-wallpapers-neon-abstract-wallpaper-hd.jpg);
+  background-size: cover;
+}
+
+.header__avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.header__title {
+  font-size: 60px;
+  margin-left: 10px;
+  font-family: 'Zhi Mang Xing', cursive;
+}
+
+.description {
+  /* margin: 5% 10% 10% 5%; */
+  padding: 20px;
+  font-size: 25px;
+  font-style: oblique;
+  background-color: rgb(152, 230, 152);
+}
+
+.description > p, .description__title {
+  background-color: inherit; /* Toma el valor del padre */
+  font-family: 'Gloria Hallelujah', cursive;
+  margin: 2% 5% 2% 5%;
+  
+}
+
+.description__title {
+  font-size: 60px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1%;
+    
+}
+
+.formulario > form {
+  text-align: center;
+}
+
+.formulario__campo {
+  margin-bottom: 10px;
+}
+
+.formulario__campo > label {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.formulario__campo > input {
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+  background-color: white;
+}
+
+.formulario__boton {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: brown;
+  color: white;
+  border: none;
+}
+
+.tabla{
+  padding: 20px 30px;
+  margin-left: 35%;
+  margin-right: 80%;
+  border: solid;
+  font-size: 30px;
+  background-color: deeppink;
+  margin: 10px 0;
+  height: 100%;
+  width: 100%;
+}
+
+.tabla1{
+  margin-left: 35%;
+  margin-right: 80%;
+  font-size: 20px ;
+ }
+
+ .tabla > .tabla1{
+
+  background: deeppink;
+ }
+
+/* button{
+  width: 100px;
+  height: auto;
+} */
+
